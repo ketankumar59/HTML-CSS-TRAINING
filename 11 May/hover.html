@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+  height:100%;
+  background-color: violet;
+}
+body{
+  text-align:center;
+}
+body:before{
+  content:'';
+  height:100%;
+  display:inline-block;
+  vertical-align:middle;
+}
+button{
+  color:#f5f1f1;
+  border:none;
+  position:relative;
+  font-size:5em;
+  cursor:pointer;
+  transition:1100ms ease all;
+  outline:none;
+  background-color:violet;
+  height: 20%;
+}
+
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:8px;
+  width: 0px;;
+  background: #020302;
+  transition:600ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+    </style>
+</head>
+<body>
+    <button>hover me</button>
+</body>
+</html>

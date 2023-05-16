@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    /* width: 100vw; */
+    height: 100vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    gap: 5px;
+    
+}
+.box{
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+}
+.one{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    font-size: 30px;
+    color: rgb(188, 15, 15);
+    /* background-image: url("https://i.pinimg.com/originals/80/d5/34/80d534b0c4cf3775a7d29ed041267dd1.jpg"); */
+    /* background-size: 100% 100%; */
+    
+
+}
+
+
+.two{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    /* background-color: rgb(191, 255, 0); */
+    gap: 5px;
+   
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    /* background-color: rgb(255, 0, 208); */
+    /* padding: 10px; */
+    row-gap: 5px;
+}
+.two1{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-size: 100% 100%;
+    font-size: 30px;
+    color: rgb(241, 19, 19);
+}
+  
+.two2{
+    position: relative;
+    width: 100%;
+    height: 50%;
+
+    background-size: 100% 100%;
+    font-size: 30px;
+    color: rgb(240, 7, 7);
+  
+
+}
+.three1{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(255, 0, 140); */
+    /* background-image: url("https://i.pinimg.com/originals/80/d5/34/80d534b0c4cf3775a7d29ed041267dd1.jpg"); */
+    background-size: 100% 100%;
+    font-size: 30px;
+    color: rgb(238, 18, 18);
+    
+    
+}
+.three2{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(255, 255, 0); */
+    /* background-image: url("https://i.pinimg.com/originals/80/d5/34/80d534b0c4cf3775a7d29ed041267dd1.jpg"); */
+    background-size: 100% 100%;
+    font-size: 20px;
+    color: rgb(225, 14, 14);
+   
+}
+button{
+    background-color: blue;
+    padding: 7px;
+    color: rgb(218, 12, 12);
+}

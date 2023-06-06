@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: auto;
+    /* background-color: blue; */
+    padding: 15px;
+}
+.box1{
+    width: 100%;
+    height: 20%;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    box-shadow: 4px 0px 15px 2px rgb(206, 232, 241);
+    padding: 20px;
+    border: 1px solid lightblue;
+}
+#b1{
+    /* position: relative; */
+    display: flex;
+    width: 100%;
+    height: 60%;
+    /* background-color: blueviolet; */
+}
+#b2{
+    display: flex;
+    justify-content: space-between;
+}
+#b11{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    margin-left: 0px;
+}
+#i2{
+    font-size: 20px;
+    position: absolute;
+    top: 16%;
+    right: 30px;
+    /* padding: 10px; */
+    color: black;
+ }
+ i{
+    color: aqua;
+ }
+
+#b12{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title{
+    width: 25%;
+}
+#phone{
+    width: 70%;
+    height: 45px;
+    background-color: rgb(192, 232, 245);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 0px;
+    font-size: 15px;
+    padding: 10px;
+}
+img{
+   width: 85px;
+   height: 85px;
+   border: 2px solid red;
+   border-radius: 50px;
+}
+
+#btn1{
+    width: 60%;
+    height: 48px;
+    /* background-color: blue; */
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    box-shadow: 4px 0px 15px 2px rgb(206, 232, 241);
+    
+    border: 0;
+    font-weight: bold;
+
+}
+#btn2{
+    width: 60%;
+    height: 48px;
+    background-color: rgb(181, 220, 245);
+    color: rgb(5, 0, 0);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 0;
+    box-shadow: 4px 0px 15px 2px rgb(206, 232, 241);
+    
+}
+h2{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2{
+    width: 100%;
+    height: 70%;
+    /* background-color: red; */
+    box-shadow: 4px 0px 15px 2px rgb(206, 232, 241);
+    
+    border-radius: 10px;
+    border: 1px soliod grey;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(192, 232, 245);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+    font-size: 15px;
+    padding: 10px;
+
+}
+input:checked{
+    accent-color: blue;
+}
+#radio{
+    width: 10%;
+    height: 20px;
+}
+label{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    
+}
+.box3{
+    width: 100%;
+    height: 50%;
+    box-shadow: 4px 0px 15px 2px rgb(206, 232, 241);
+    
+    border-radius: 10px;
+    border: 3px soliod grey;
+    padding: 20px;
+}
+button{
+    width: 100%;
+    height: 70px;
+    background-color:  rgb(10, 171, 225);
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0;
+}
+select{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(192, 232, 245);
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+}
+
+    </style>
+</head>
+<body>
+   <div class="main">
+    <h2><i class="fa fa-chevron-left" aria-hidden="true" ></i>&emsp; My Profile</h2>
+    <div class="box1">
+        <div id="b1">
+            <div id="b11">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr8Zq-Ol7Kf2ptKNGw44QLVDRfy-4DVyK11g&usqp=CAU">
+            </div>
+            <div id="b12">
+                <i class="fa fa-pencil" aria-hidden="true" id="i2"></i>
+                <h3>Dr Bhaskar Sharma</h3> 
+                <p>DRID A57601</p>
+
+            </div>
+        </div>
+        <div id="b2">
+            <button id="btn1">Doctor profile</button>
+            <button id="btn2">General Information</button>
+        </div>
+    </div>
+    <h2>Personal Information</h2>
+    <div class="box2">
+        <form>
+        <label>Title</label><br>
+        <select id="title" name="title">
+          <option value="volvo">Dr</option>
+          <option value="saab">mr.</option>
+          <option value="fiat">mrs.</option>
+          <option value="audi">sir</option>
+          </select><br>
+          <label>First Name</label><br>
+          <input type="text" placeholder="Enter your first name"><br>
+          <label>Last Name</label><br>
+          <input type="text" placeholder="Enter your Last name"><br>
+          <label>Email</label><br>
+          <input type="text" placeholder="example@gmail.com"><br>
+          <label>Gender</label><br>
+          <!-- <input type="radio" id="male" name="gender" value="Male">
+          <label for="male">Male</label>
+          <input type="radio"  id="female" value="Male">
+          <label for="female">Female</label>
+          <input type="radio"  id="other" value="Male">
+          <label for="other">other</label> -->
+          <input type="radio" name="abc" value="Male" id="radio" checked ><label>Male </label>
+         <input type="radio" name="abc" value="Female" id="radio">  <label>Female </label>
+          <input type="radio" name="abc" value="other" id="radio"><label>Other</label>
+          <br><br>
+          <label>Mobile Number</label><br>
+          <select id="title" name="title">
+            <option value="volvo">+91</option>
+            <option value="saab">+92</option>
+            <option value="fiat">+93</option>
+            <option value="audi">+94</option>
+            </select><input type="text" placeholder="0000000000" id="phone"><BR>
+          
+
+          <label>Date of Birth</label><br>
+          <input type="date"><br>
+          <label>Address</label><br>
+          <input type="text" placeholder="Building Name,Street name,..."><br>
+          <label>State</label><br>
+          <!-- <input type="text" placeholder="Select your state" ><br> -->
+          <select id="Select your state" size="1" >
+            <option value="" disabled selected>Select your state</option>
+            <option></option>
+            </select><br>
+          
+          <label>City</label><br>
+          <!-- <input type="text" placeholder="Select your city"><br> -->
+          <select id="Select your city" size="1" >
+            <option value="" disabled selected>Select your City</option>
+            <option></option>
+            </select><br>
+
+          <label>Pin Code</label><br>
+          <input type="text" placeholder="Enter your pin code"><br>
+          <label>Aadhar Card</label><br>
+          <input type="text" placeholder="Upload your aadhar card">
+          </form>
+
+
+    </div>
+    <h2>Proifessional Information</h2>
+    <div class="box3">
+        <label>Registration ID</label><br>
+        <input type="text" placeholder="Enter Your registration ID"><br>
+        <label>Year of registration </label><br>
+        <!-- <input type="YYYY"><br> -->
+        <select id="Select your city" size="1">
+            <option value="" disabled selected>YYYY</option>
+            <option></option>
+            </select><br>
+
+        <label>parent's name</label><br>
+        <input type="text" placeholder="Enter your parent's name"><br>
+        <label>Registration Document</label><br>
+        <input type="text" placeholder="Upload your registration document"><br>
+        <label>State Medical Council</label><br>
+        <!-- <input type="Select your state medical council"><br> -->
+        <select id="Select your city" size="1" >
+            <option value="" disabled selected>Select your state medical council</option>
+            <option></option>
+            </select><br>
+       
+    </div>
+    <button>SAVE</button>
+   </div>
+</body>
+</html>

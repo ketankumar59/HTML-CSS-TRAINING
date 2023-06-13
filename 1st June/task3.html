@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task3.css">
+    <style>
+
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    /* background-color:darkslateblue; */
+    
+}
+.box1{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    text-align: center;
+}
+#a1{
+    font-size: 15PX;
+    color:rgb(124, 106, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#a2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#a3{
+    font-size: 15px;
+    margin-top: 10px;
+    color: grey;
+    margin-top: 35px;
+
+}
+.box2{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+#b1{
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50px;
+}
+#b2{
+    width: 50%;
+    background-color: rgb(124, 106, 236);
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+}
+#b3{
+    width: 50%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: black;
+    padding: 40px;
+    justify-content: space-between;
+}
+#c1{
+    max-width: 30%;
+    max-height: 90%;
+    /* background-color: green; */
+    border: 2px solid rgb(37, 43, 38);
+    box-shadow: px 0px ;
+    border-radius: 20px;
+    padding: 20px;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#c2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+span{
+    font-size: 15px;
+}
+#btn1{
+    width: 90%;
+    height: 35px;
+    background-color: rgb(5, 1, 9);
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+li{
+    color: white;
+    margin: 15px;
+}
+ul{
+    list-style-type: none;
+}
+#c12{
+    max-width: 30%;
+    max-height: 90%;
+    /* background-color: green; */
+    border: 2px solid  rgb(124, 106, 236);
+    box-shadow: px 0px ;
+    border-radius: 15px;
+    padding: 20px;
+}
+#btn2{
+    width: 90%;
+    height: 35px;
+    background-color: rgb(97, 25, 169);
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(124, 106, 236);
+}
+#btn3{
+    width: 35%;
+    height: 50%;
+    background-color: rgb(124, 106, 236);
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    
+}
+.inc12{
+    display: flex;
+    justify-content: space-between;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box1">
+            <p id="a1">Pricing</p>
+            <p id="a2">Pricing plans for teams of all sizes</p>
+            <p id="a3">choose an affordable plan that's packed with the best features for engaging<br>
+                your audience, creating customer loyalty, and driving sales.</p>
+        </div>
+        <div class="box2">
+            <div id="b1">
+                <div id="b2">Monthaly</div>
+                <div id="b3">Annually</div>
+            </div>
+        </div>
+        <div class="box3">
+            <div id="c1">
+                <h3>Freelancer</h3>
+                <p id="c2">The essentials to provide your best work for <br>clients.</p>
+                <h2>$15<span>/month</span></h2>
+                <button id="btn1">Buy plan</button>
+                <ul>
+                    <li>&#10004; 5 products</li>
+                    <li>&#10004;  Up to 1,000 subscribers</li>
+                    <li>&#10004; Basic analytics</li>
+                    <li>&#10004; 48-hour support response time</li>
+            
+                </ul>
+            </div>
+            <div id="c12">
+               <div class="inc12"> <h3>Startup</h3> <button id="btn3">Most popular</button></div>
+                <p id="c2">A plain that scales with your ropidly growing business. <br>business.</p>
+                <h2>$30<span>/month</span></h2>
+                <button id="btn2">Buy plan</button>
+                <ul>
+                    <li>&#10004; 25 products</li>
+                    <li>&#10004;  Up to 10,000 subscriber</li>
+                    <li>&#10004; Advanced analytics</li>
+                    <li>&#10004; 24-hour support response time</li>
+                    <li>&#10004; Marketing automations</li>
+            </div>
+            <div id="c1">
+                <h3>Enterprise</h3>
+                <p id="c2">Dedicated support and infrastructure for your <br>company.</p>
+                <h2>$48<span>/month</span></h2>
+                <button id="btn1">Buy plan</button>
+                <ul>  <li>&#10004; Unlimited products</li>
+                    <li>&#10004;  Unlimited subscriber</li>
+                    <li>&#10004; Advanced analytics</li>
+                    <li>&#10004; 1-hour,dedicated support response time</li>
+                    <li>&#10004; Marketing automations</li>
+                    <li>&#10004;  Custom reporting tools</li>
+            </ul>
+                  
+                
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

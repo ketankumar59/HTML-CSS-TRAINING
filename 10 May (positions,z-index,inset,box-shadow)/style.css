@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.cir{
+    position: absolute;
+    width: 25%;
+    height: 45%;
+    left: 50%;
+    top: 27.9%;
+    border-radius: 100%;
+    background-color: blue;
+    /* z-index: -1; */
+    transform: translate(-50%,50%);
+}
+
+.in-main{
+    display: flex;
+    width: 95vw;
+    height: 90vh;
+    background-color: aqua;
+}
+
+.one{
+    width: 25%;
+    height: 100%;
+}
+
+.two{
+    width: 25%;
+    height: 100%;
+}
+.three{
+    width: 25%;
+    height: 100%;
+}
+
+.four{
+    width: 25%;
+    height: 100%;
+}
+.one1{
+    height: 50%;
+    background-color: snow;
+    position: relative;
+}
+
+.one2{
+    height: 50%;
+    background-color: red;
+}
+
+.cir{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    background-color: black;
+        top: 30px;
+    left: 20px;
+    transform: translate(-50%,50%);
+
+}
+.two1{
+    height: 50%;
+    background-color: grey;
+}
+.two2{
+    height: 50%;
+    background-color: chocolate;
+}
+.three1{
+    height: 50%;
+    background-color: chocolate;
+}
+
+
+.three2{
+    height: 50%;
+    background-color: grey;
+}
+.four1{
+    height: 50%;
+    background-color: red;
+}
+.four2{
+    height: 50%;
+    background-color: snow;
+}
+
+
+

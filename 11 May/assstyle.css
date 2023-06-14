@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ketan{
+    /* display: flex; */
+    width: 100%;
+    height: 40%;
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+}
+.nav1{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+.nav2{
+    display: flex;
+
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #fff;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inmain{
+    display: flex;
+    width: 70%;
+    height: 90%;
+    /* background-color: red; */
+    flex-direction: row;
+    margin: 10px;
+}
+button{
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 3px;
+}
+.one{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    margin: 10px;
+}
+.two{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(41, 0, 128); */
+    margin: 10px;
+}
+.one1{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    /* background-color: blueviolet */
+    flex-direction: column;
+    margin: 10px;
+    
+
+}
+.one2
+{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(43, 125, 226); */
+    margin: 10px;
+}
+
+.two1{
+    width: 100%;
+    height: 50%;
+    background-color:  #fff;
+    margin: 10px;
+}
+.two2{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(226, 43, 180); */
+    margin: 10px;
+}
+.one11{
+    width: 100%;
+    height: 50%;
+    /* background-color: brown; */
+}
+.one12{
+    width: 100%;
+    height: 50%;
+    background-color:  #fff;
+    
+}
+.two21{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(219, 97, 97); */
+}
+.two22{
+    width: 100%;
+    height: 50%;
+    background-color:  #fff;
+}
+.one21{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(213, 186, 137); */
+}
+.one22{
+    width: 100%;
+    height: 50%;
+    background-color:  #fff;
+}
+.two11{
+    width: 100%;
+    height: 50%;
+    /* background-color:; */
+}
+.two12{
+    width: 100%;
+    height: 50%;
+    background-color:  #fff;
+}
+.end1{
+    width: 100%;
+    height: 70%;
+    background-color: #ffc107;
+    text-align: center;
+    padding: 20px;
+
+}
+.end2{
+    width: 100%;
+    height: 70%;
+    background-color: #ffc107;
+    text-align: center;
+    padding: 20px;
+    margin: 1px;
+}
